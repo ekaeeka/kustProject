@@ -29,7 +29,7 @@ $_SESSION['type'];
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="history.php">История</a></li>
                 <li><a href="afisha.php">Афиша</a></li>
-                <li><a href="visitors.html">Посетителям</a></li>
+                <li><a href="visitors.php">Посетителям</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </div>
             <div class="contact">
@@ -176,7 +176,7 @@ $_SESSION['type'];
                     <a href="index.php">Главная</a><br>
                     <a href="history.php">История</a><br>
                     <a href="afisha.php">Афиша</a><br>
-                    <a href="visitors.html">Посетителям</a><br>
+                    <a href="visitors.php">Посетителям</a><br>
                     <a href="#">Контакты</a><br></p>
             </div>
         </div>

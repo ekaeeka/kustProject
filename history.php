@@ -30,7 +30,7 @@ $errors = [];
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="history.php">История</a></li>
                 <li><a href="afisha.php">Афиша</a></li>
-                <li><a href="visitors.html">Посетителям</a></li>
+                <li><a href="visitors.php">Посетителям</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </div>
             <div class="contact">

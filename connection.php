@@ -1,7 +1,7 @@
 <?php
 $serverName = 'localhost';
 $userName = 'root';
-$password = null;
+$password = 'root';
 $nameDB='museum';
 
 

@@ -11,6 +11,7 @@ $datetime = date('Y-m-d H:i:s', time());
 $name = $_POST['name'];
 $text = $_POST['text'];
 
+
 if (!empty($_POST))
 
     if (empty($name) || empty($img) || empty($text)) {
@@ -44,16 +45,16 @@ if (!empty($_POST))
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Афиша</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Посетителям нашего музея</title>
 </head>
 <body>
 <header id="bg-header">
     <div class="container">
         <div class="header-content">
             <div class="logo">
-                <img src="img/logo.png" alt="Дом-музей Кустодиева" class="picture">
+                <img src="img/logo.png" alt="Дом-музей Б.М. Кустодиева" class="picture">
             </div>
             <div class="menu">
                 <li><a href="index.php">Главная</a></li>
@@ -81,36 +82,17 @@ if (!empty($_POST))
     </div>
 </header>
 
-
-<?php
-if ($_SESSION['type'] == 2) {
-    echo " <section>
-    <div class='add-news'>
-        <form action='' method='post'>
-            <h1>Добавление новостей</h1>
-            <label for=''>Заголовок</label>
-            <input type='text' name='name' placeholder='Введите название'>
-            <label>Прикрепите фотографию</label><br>
-            <input type='file' name='img' value='Прикрепить'><br>
-            <label for=''>Текст</label>
-            <input type='text' name='text' placeholder='Введите текст'>
-
-            <button type='submit' name='add' class='button-add'>Добавить</button>
-        </form>
+<div class="container">
+    <div class="course">
+        <div class="head3">
+            <h1>Культурно-просветительские и развивающие <br> проекты и программы</h1>
+        </div>
     </div>
-</section>";
-}
-?>
-
-<?php if ($errors): ?>
-    <div class="errors">
-        <?php
-        foreach ($errors as $error) {
-            echo "<div class='error_message'>$error</div>";
-        }
-        ?>
+    <div class="container-for-course">
+        <div class="for-kids">
+            
+        </div>
     </div>
-
-<?php endif; ?>
+    </div>
 </body>
 </html>
